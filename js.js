@@ -1,24 +1,4 @@
 
-/*function timer() {
-    let hours = Ma$("#input-hours").val();
-    let minutes = $("#input-minutes").val();
-    let second = $("#input-second").val();
-
-    if(second !=0){
-        second --;
-    }else if(minutes !=0 && second == 0){
-        second = 59;
-        minutes --;
-    }else if(hours != 0 && minutes == 0 && second == 0){
-        second = 59;
-        minutes = 59;
-        hours --;
-    }
-    if(hours == 0 && minutes == 0 && second == 0){
-        $("#audio")[0].play();
-    }
-    
-}*/
 $(function(){
 
     var started = false;
@@ -110,36 +90,12 @@ $(function(){
         }
     }
 
-    /*
-    function displayValues(){
-        //let hours = $("#input-hours").val();
-        //$("#text-hours").text(hours)
-        let minutes = $("#input-minutes").val();
-        $("#text-minutes").text(minutes)
-        let second = $("#input-second").val();
-        $("#text-second").text(second)
-    }
-
-
-    function deleteDisplay() {  
-        //$("#input-hours").val(undefined)
-        $("#input-minutes").val(undefined)
-        $("#input-second").val(undefined) 
-    //$("#text-hours").empty() 
-        $("#text-minutes").empty() 
-        $("#text-second").empty() 
-    }   
-
-    */
-
-
+  
     
     function deleteDisplay() {  
         time = 0 ;
         started = false ;
     }   
-
-
 
 
 

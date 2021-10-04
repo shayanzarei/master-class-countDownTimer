@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2 from Turing to Gates</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="#">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="h2"><h2>Countdown Timer</h2></div>
+            <div class="title">
+                <!-- <h4>Hours</h4> -->
+                <h4>Minutes</h4>
+                <h4>Seconds</h4>     
+            </div>
+
+            <div class="input">
+
+                <!-- <input type="number" id="input-hours" min="0" max="24"> -->
+                <input type="number" id="input-minutes" min="0" max="59">
+                <input type="number" id="input-second" min="0" max="59">
+            </div>  
+            <div class="text">
+                <!--  <p id="text-hours"></p>
+                <p>:</p>  -->
+                <p id="text-minutes"></p>
+                <p>:</p>
+                <p id="text-second"></p>
+            </div>
+            <div class="button">
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+
+        </div>
+        <audio id="audio" src="./audio/cow-sound1.mp3"></audio>
+        <script src="./js.js"></script>
+    </body>
+</html>
